@@ -1,0 +1,114 @@
+
+
+.mod{
+  width: 100%;
+}
+
+.button{
+  width: 25%;
+  height:75px;
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  float: left;
+}
+
+body{
+  background-color:rgba(15, 15, 14, 0.651);
+}
+
+.button:hover{
+  background-color: orange;
+}
+
+.preview{
+  width:500px;
+  height: 500px;
+  margin-left:auto;
+  margin-right:auto;
+  border-style:solid;
+  border-color:black;
+  border: 10px;
+}
+
+.pre{
+  border: 5px solid rgb(236, 231, 232);
+}
+.round{
+  border-radius:15px;
+}
+
+.bigContainer{
+
+  width:83%;
+  height: 500px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+
+
+.childContainer{
+  width:333px;
+  height: 490px;
+  float: left;
+
+}
+.childContainerR{
+  width:333px;
+  height: 490px;
+  float: right;
+
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.hotPink{
+  height:100px;
+  width: 300px;
+  font-family: Arial;
+  background-color: hotpink;
+}
+.pink{
+  height:100px;
+  width: 300px;
+  font-family: Courier;
+  background-color:pink;
+}
+
+.lightPink{
+  height:100px;
+  width: 300px;
+  font-family: Corsiva;
+  background-color: hotpink;
+}
+
+.b{
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius:25px;
+  width: 200px;
+  height:55px;
+  font-size: 20px;
+
+}
+.b:hover{
+  background-color:rgba(255, 166, 0, 0.685);
+}
+
+.footer {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  padding: 16px 32px;
+  max-width: 100%;
+  text-align: center;
+  position: fixed;
+  height: 55px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
